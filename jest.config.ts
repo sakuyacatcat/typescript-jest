@@ -10,7 +10,7 @@ const jestConfig: JestConfigWithTsJest = {
   transform: {
     ...tsjPreset.transform,
   },
-  testMatch: ["<rootDir>/src/**/*.test.ts"],
+  testMatch: ["<rootDir>/test/**/*.test.ts"],
   modulePaths: ["<rootDir>/src"],
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1",
